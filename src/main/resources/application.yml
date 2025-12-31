@@ -1,0 +1,15 @@
+logging:
+  level:
+    root: INFO
+
+    # Your custom named loggers
+    REQUEST_LOG: INFO
+    SUCCESS_LOG: INFO
+    REPLAY_LOG: INFO
+    ERROR_LOG: ERROR
+
+    # Optional: rule engine internals
+    com.example.billing.service.RuleEngine: DEBUG
+
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} %-5level [%logger] %msg%n"

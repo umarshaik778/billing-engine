@@ -1,0 +1,54 @@
+2025-12-31 08:54:34,723 INFO  STORAGE_INITIALIZED | baseDir=C:\Users\UMAR\IdeaProjects\billing-engine\data
+2025-12-31 08:54:36,887 INFO  REQUEST_RECEIVED | endpoint=POST /bill/process | account=ACC777 | inputFormat=JSON | outputFormat=XML | payload=BillInput(header=BillInput.Header(accountNo=ACC777, issueDate=12/16/2025, jurisdiction=NYC, previousBalance=null, servicePoints=[BillInput.ServicePoint(id=null, type=null, meters=[BillInput.Meter(id=null, readings=[BillInput.Reading(period=null, usageKwh=500.0, rateTier=TIER1)])])]))
+2025-12-31 08:54:36,888 INFO  PROCESS_START | account=ACC777 | inputFormat=JSON | outputFormat=XML
+2025-12-31 08:54:36,895 INFO  INPUT_STORED | file=ACC777_20251231085436_IN.json | format=JSON
+2025-12-31 08:54:37,318 INFO  STORAGE_INITIALIZED | baseDir=C:\Users\UMAR\IdeaProjects\billing-engine\data
+2025-12-31 08:54:37,479 INFO  PROCESS_START | account=ACC999 | inputFormat=XML | outputFormat=JSON
+2025-12-31 08:54:37,486 INFO  INPUT_STORED | file=ACC999_20251231085437_IN.xml | format=XML
+2025-12-31 08:54:37,488 WARN  PROCESSING_SKIPPED | gate=DISABLED | movedToReplay=ACC999_20251231085437_IN.xml
+2025-12-31 08:54:37,563 INFO  REPLAY_START | account=ACC999 | file=ACC999_20251231085437_IN.xml
+2025-12-31 08:54:37,629 INFO  PROCESS_START | account=ACC123 | inputFormat=XML | outputFormat=JSON
+2025-12-31 08:54:37,632 INFO  INPUT_STORED | file=ACC123_20251231085437_IN.xml | format=XML
+2025-12-31 08:54:37,648 INFO  PROCESS_START | account=ACC123 | inputFormat=XML | outputFormat=JSON
+2025-12-31 08:54:37,649 INFO  INPUT_STORED | file=ACC123_20251231085437_IN.xml | format=XML
+2025-12-31 08:54:37,651 WARN  PROCESSING_SKIPPED | gate=DISABLED | movedToReplay=ACC123_20251231085437_IN.xml
+2025-12-31 08:54:50,786 INFO  STORAGE_INITIALIZED | baseDir=C:\Users\UMAR\IdeaProjects\billing-engine\data
+2025-12-31 08:55:05,375 INFO  REQUEST_RECEIVED | endpoint=POST /bill/process | account=ACC-UPSTATE-03 | inputFormat=XML | outputFormat=JSON | payload=BillInput(header=BillInput.Header(accountNo=ACC-UPSTATE-03, issueDate=12/16/2025, jurisdiction=ALBANY, previousBalance=null, servicePoints=[BillInput.ServicePoint(id=SP01, type=null, meters=[BillInput.Meter(id=M3, readings=[BillInput.Reading(period=null, usageKwh=1000.0, rateTier=TIER2)])])]))
+2025-12-31 08:55:05,375 INFO  PROCESS_START | account=ACC-UPSTATE-03 | inputFormat=XML | outputFormat=JSON
+2025-12-31 08:55:05,490 INFO  INPUT_STORED | file=ACC-UPSTATE-03_20251231085505_IN.xml | format=XML
+2025-12-31 08:55:21,192 INFO  REPLAY_START | account=ACC123 | file=ACC123_20251231085437_IN.xml
+2025-12-31 08:55:58,191 INFO  REQUEST_RECEIVED | endpoint=POST /bill/process | account=ACC-UPSTATE-03 | inputFormat=XML | outputFormat=JSON | payload=BillInput(header=BillInput.Header(accountNo=ACC-UPSTATE-03, issueDate=12/16/2025, jurisdiction=ALBANY, previousBalance=null, servicePoints=[BillInput.ServicePoint(id=SP01, type=null, meters=[BillInput.Meter(id=M3, readings=[BillInput.Reading(period=null, usageKwh=1000.0, rateTier=TIER2)])])]))
+2025-12-31 08:55:58,191 INFO  PROCESS_START | account=ACC-UPSTATE-03 | inputFormat=XML | outputFormat=JSON
+2025-12-31 08:55:58,199 INFO  INPUT_STORED | file=ACC-UPSTATE-03_20251231085558_IN.xml | format=XML
+2025-12-31 09:02:26,159 INFO  STORAGE_INITIALIZED | baseDir=C:\Users\UMAR\IdeaProjects\billing-engine\data
+2025-12-31 09:02:27,910 INFO  REQUEST_RECEIVED | endpoint=POST /bill/process | account=ACC777 | inputFormat=JSON | outputFormat=XML | payload=BillInput(header=BillInput.Header(accountNo=ACC777, issueDate=12/16/2025, jurisdiction=NYC, previousBalance=null, servicePoints=[BillInput.ServicePoint(id=null, type=null, meters=[BillInput.Meter(id=null, readings=[BillInput.Reading(period=null, usageKwh=500.0, rateTier=TIER1)])])]))
+2025-12-31 09:02:27,910 INFO  PROCESS_START | account=ACC777 | inputFormat=JSON | outputFormat=XML
+2025-12-31 09:02:27,914 INFO  INPUT_STORED | file=ACC777_20251231090227_IN.json | format=JSON
+2025-12-31 09:02:27,919 INFO  ABOUT_TO_PERSIST_OUTPUT | account=ACC777
+2025-12-31 09:02:28,383 INFO  STORAGE_INITIALIZED | baseDir=C:\Users\UMAR\IdeaProjects\billing-engine\data
+2025-12-31 09:02:28,589 INFO  PROCESS_START | account=ACC999 | inputFormat=XML | outputFormat=JSON
+2025-12-31 09:02:28,598 INFO  INPUT_STORED | file=ACC999_20251231090228_IN.xml | format=XML
+2025-12-31 09:02:28,602 WARN  PROCESSING_SKIPPED | gate=DISABLED | movedToReplay=ACC999_20251231090228_IN.xml
+2025-12-31 09:02:28,714 INFO  REPLAY_START | account=ACC999 | file=ACC999_20251231090228_IN.xml
+2025-12-31 09:02:28,715 INFO  ABOUT_TO_PERSIST_OUTPUT2 | account=ACC999
+2025-12-31 09:02:28,946 INFO  PROCESS_START | account=ACC123 | inputFormat=XML | outputFormat=JSON
+2025-12-31 09:02:28,955 INFO  INPUT_STORED | file=ACC123_20251231090228_IN.xml | format=XML
+2025-12-31 09:02:28,959 INFO  ABOUT_TO_PERSIST_OUTPUT | account=ACC123
+2025-12-31 09:02:29,042 INFO  PROCESS_START | account=ACC123 | inputFormat=XML | outputFormat=JSON
+2025-12-31 09:02:29,047 INFO  INPUT_STORED | file=ACC123_20251231090229_IN.xml | format=XML
+2025-12-31 09:02:29,059 WARN  PROCESSING_SKIPPED | gate=DISABLED | movedToReplay=ACC123_20251231090229_IN.xml
+2025-12-31 09:02:45,181 INFO  STORAGE_INITIALIZED | baseDir=C:\Users\UMAR\IdeaProjects\billing-engine\data
+2025-12-31 09:02:51,132 INFO  REQUEST_RECEIVED | endpoint=POST /bill/process | account=ACC-UPSTATE-03 | inputFormat=XML | outputFormat=JSON | payload=BillInput(header=BillInput.Header(accountNo=ACC-UPSTATE-03, issueDate=12/16/2025, jurisdiction=ALBANY, previousBalance=null, servicePoints=[BillInput.ServicePoint(id=SP01, type=null, meters=[BillInput.Meter(id=M3, readings=[BillInput.Reading(period=null, usageKwh=1000.0, rateTier=TIER2)])])]))
+2025-12-31 09:02:51,133 INFO  PROCESS_START | account=ACC-UPSTATE-03 | inputFormat=XML | outputFormat=JSON
+2025-12-31 09:02:51,197 INFO  INPUT_STORED | file=ACC-UPSTATE-03_20251231090251_IN.xml | format=XML
+2025-12-31 09:02:51,205 INFO  ABOUT_TO_PERSIST_OUTPUT | account=ACC-UPSTATE-03
+2025-12-31 09:03:15,471 INFO  REPLAY_START | account=ACC123 | file=ACC123_20251231090229_IN.xml
+2025-12-31 09:03:15,472 INFO  ABOUT_TO_PERSIST_OUTPUT2 | account=ACC123
+2025-12-31 09:06:03,197 INFO  REQUEST_RECEIVED | endpoint=POST /bill/process | account=ACC-UPSTATE-09 | inputFormat=XML | outputFormat=JSON | payload=BillInput(header=BillInput.Header(accountNo=ACC-UPSTATE-09, issueDate=12/16/2025, jurisdiction=ALBANY, previousBalance=null, servicePoints=[BillInput.ServicePoint(id=SP01, type=null, meters=[BillInput.Meter(id=M3, readings=[BillInput.Reading(period=null, usageKwh=1000.0, rateTier=TIER2)])])]))
+2025-12-31 09:06:03,197 INFO  PROCESS_START | account=ACC-UPSTATE-09 | inputFormat=XML | outputFormat=JSON
+2025-12-31 09:06:03,199 INFO  INPUT_STORED | file=ACC-UPSTATE-09_20251231090603_IN.xml | format=XML
+2025-12-31 09:06:03,200 INFO  ABOUT_TO_PERSIST_OUTPUT | account=ACC-UPSTATE-09
+2025-12-31 09:06:44,676 INFO  REQUEST_RECEIVED | endpoint=POST /bill/process | account=ACC-UPSTATE-09 | inputFormat=XML | outputFormat=JSON | payload=BillInput(header=BillInput.Header(accountNo=ACC-UPSTATE-09, issueDate=12/31/2025, jurisdiction=ALBANY, previousBalance=null, servicePoints=[BillInput.ServicePoint(id=SP01, type=null, meters=[BillInput.Meter(id=M3, readings=[BillInput.Reading(period=null, usageKwh=1000.0, rateTier=TIER2)])])]))
+2025-12-31 09:06:44,676 INFO  PROCESS_START | account=ACC-UPSTATE-09 | inputFormat=XML | outputFormat=JSON
+2025-12-31 09:06:44,679 INFO  INPUT_STORED | file=ACC-UPSTATE-09_20251231090644_IN.xml | format=XML
+2025-12-31 09:06:44,680 INFO  ABOUT_TO_PERSIST_OUTPUT | account=ACC-UPSTATE-09
