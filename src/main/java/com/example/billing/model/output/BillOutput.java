@@ -12,6 +12,8 @@ import java.util.Map;
 @Setter
 @Getter
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class BillOutput {
 
     private String accountNumber;
