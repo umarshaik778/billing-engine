@@ -1,0 +1,1 @@
+<bill><header><accountNo>ACC-UPSTATE-09</accountNo><issueDate>12/16/2025</issueDate><jurisdiction>ALBANY</jurisdiction><previousBalance/><servicePoints><servicePoint id="SP01"><meters><meter id="M3"><readings><reading usageKwh="1000.0" rateTier="TIER2"/></readings></meter></meters></servicePoint></servicePoints></header></bill>

@@ -1,0 +1,1 @@
+<bill><header><accountNo>ACC123</accountNo><issueDate>12/16/2025</issueDate><jurisdiction>NYC</jurisdiction><previousBalance/><servicePoints><servicePoint id="SP1" type="RESIDENTIAL"><meters><meter id="MTR1"><readings><reading period="2025-12-01/2025-12-16" usageKwh="600.0" rateTier="TIER1"/></readings></meter></meters></servicePoint></servicePoints></header></bill>
